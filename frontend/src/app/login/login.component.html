@@ -1,11 +1,20 @@
 
 <section class="main-page">
+  <div class="title">
   <h1>Login</h1>
+  <h2><img src="/frontend/src/assets/Common/Logo-GeoSkate.png"></h2>
+</div>
   <div class="form-wrapper">
 <form class="login-form" method="POST">
-    <input type="user" name="" placeholder="Username">
-    <input type="password" name="" placeholder="Password">
-    <input type="submit" name="" value="Login">
+    <div class="input-wrapper">
+      <input id="user" type="user" name="" placeholder="Username">
+      <p class="paragraph">Your E-mail</p>
+    </div>
+    <div class="input-wrapper">
+      <input id="password" type="password" name="" placeholder="Password">
+      <p class="paragraph">Your password</p>
+    </div>
+    <input id="submit" type="submit" name="" value="Login">
   </form>
   </div>
 </section>
