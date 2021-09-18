@@ -5,5 +5,5 @@ const app = express();
 
 // GET
 function getLocation(coordinates : Coordinates , radius : number) : {
-  retur
+  return
 }

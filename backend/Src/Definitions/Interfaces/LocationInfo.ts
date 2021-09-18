@@ -1,12 +1,11 @@
-import {Image} from "../Types.ts";
-import {Coordinate} from "./Coordinates;ts";
-import {Comment} from "./Comment.ts";
-export default =
-interface LocationInfo {
-  Title : string,
-  Images : Array<Image>,
-  Comments : Array<Comment>,
-  Grade : number,
-  Description : string,
-  Coordinates : Coordinate
+import {Image} from "../Types";
+import Coordinate from "./Coordinates";
+import Comment from "./Comment";
+export default interface LocationInfo {
+  title : string,
+  images : Array<Image>,
+  comments : Array<Comment>,
+  grade : number,
+  description : string,
+  coordinates : Coordinate
 }
