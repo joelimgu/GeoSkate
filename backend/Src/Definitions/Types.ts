@@ -9,4 +9,6 @@ type Name = string;
 
 type Password = string;
 
-export {Email,Name,Password,Id,Image};
+type authToken = string;
+
+export {Email,Name,Password,Id,Image,authToken};
