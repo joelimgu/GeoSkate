@@ -1,9 +1,9 @@
-export default =
+export default
 interface Comment{
-  Title : string,
+  title : string,
   authorUsername : string,
-  Text : string,
-  Date : date,
+  text : string,
+  date : Date,
   commentGrade : number,
   givenGrade : number
 }
