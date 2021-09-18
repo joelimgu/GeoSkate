@@ -3,6 +3,7 @@ import {Id} from "./Src/Definitions/Types";
 
 const app = express();
 
-function getUser(id : Id) {
-
+// GET
+function getLocation(coordinates : Coordinates , radius : number) : {
+  retur
 }

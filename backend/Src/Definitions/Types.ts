@@ -1,6 +1,12 @@
 // Types for database
 type Id = string;
 
-// 2 interfacs for full and reduced info on location
+type Image = Blob;
 
-export {Id};
+type Email = string;
+
+type Name = string;
+
+type Password = string;
+
+export {Email,Name,Password,Id,Image};
