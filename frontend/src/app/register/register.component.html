@@ -1,9 +1,27 @@
-<div class="page">
-    <form class="box" action="login.component.html" method="POST">
+<section class="main-page">
+    <div class="title">
     <h1>Register</h1>
-    <input type="user" name="" placeholder="Username">
-    <input type="password" name="" placeholder="Password">
-    <input type="repeatPassword" name="" placeholder="Repeat Password">
-    <input type="submit" name="" value="Register">
-</form>
-</div>
+    <h2><img src="../../assets/Common/Logo-GeoSkate.png"></h2>
+  </div>
+    <div class="form-wrapper">
+  <form class="register-form" method="POST">
+      <div class="input-wrapper">
+        <input type="name" name="" placeholder="Name">
+        <p class="paragraph">Your Firstname and Secondname</p>
+      </div>
+      <div class="input-wrapper">
+        <input type="user" name="" placeholder="E-mail">
+        <p class="paragraph">Your E-mail</p>
+      </div>
+      <div class="input-wrapper">
+        <input type="password" name="" placeholder="Password">
+        <p class="paragraph">Your password</p>
+      </div>
+      <div class="input-wrapper">
+        <input type="repeat-password" name="" placeholder="Repeat Password">
+        <p class="paragraph">Make sure it matches the password written above</p>
+      </div>
+      <input id="submit" type="submit" name="" value="Register">
+    </form>
+    </div>
+  </section>
