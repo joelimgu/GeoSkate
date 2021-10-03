@@ -1,3 +1,7 @@
+$verd: #009A06
+$blau: #007FF5
+$gris: #CFCFCF
+
 .title
     max-height: 18%
     max-width: 100%
@@ -29,6 +33,9 @@
             max-height: 17%
             max-width: 90%
 
+            #name, #repeatpassword, #email, #password
+                color: $verd
+
             .paragraph
                 font-family: 'Lucida Grande'
                 text-align: left
@@ -36,7 +43,7 @@
                 
             input
                 border: 0
-                background: #F0F0F0
+                background: $gris
                 display: block
                 text-align: center
                 max-height: 30%
@@ -47,7 +54,7 @@
                 transition: 0.25s
 
         #submit
-            background-image: linear-gradient(114.44deg, #007FF5 0%, #009A06 100%) 
+            background-image: linear-gradient(114.44deg, $blau 0%, $verd 100%) 
             margin-left: auto
             margin-right: auto
             height: 5%

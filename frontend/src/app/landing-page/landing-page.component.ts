@@ -14,7 +14,7 @@ export class LandingPageComponent implements OnInit {
   }
 
   enterAsGuest(){
-    console.log("Entering as guest")
+    this.router.navigate(["location-page"])
   }
 
   login(){
